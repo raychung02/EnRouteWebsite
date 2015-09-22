@@ -131,7 +131,7 @@
 
 	}
 
-	@media screen and (max-width: 980px) {
+	@media screen and (max-width: 1000px) {
 
 		.container.\31 25\25 {
 			width: 100%;
@@ -923,7 +923,7 @@
 
 	}
 
-	@media screen and (max-width: 980px) {
+	@media screen and (max-width: 1000px) {
 
 		.row > * {
 			padding: 0 0 0 1.5em;
@@ -2291,6 +2291,10 @@
 				width: 100%;
 			}
 
+		.image.title img {
+			margin-top: 5em;
+		}
+
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
@@ -3238,10 +3242,6 @@
 				background-attachment: scroll;
 			}
 
-				#header br {
-					display: inline;
-				}
-
 		/* Footer */
 
 			#footer {
@@ -3253,7 +3253,7 @@
 
 /* Medium */
 
-	@media screen and (max-width: 980px) {
+	@media screen and (max-width: 1000px) {
 
 		/* List */
 
@@ -3276,25 +3276,13 @@
 		/* Header */
 
 			#header {
-				padding: 8em 3em 8em 3em ;
+				padding: 4em 5em 8em 5em ;
 			}
 
 		/* Footer */
 
 			#footer {
 				padding: 5em 3em 5em 3em ;
-			}
-
-		/* One */
-
-			#one {
-				text-align: center;
-			}
-
-		/* Two */
-
-			#two {
-				text-align: center;
 			}
 
 	}
