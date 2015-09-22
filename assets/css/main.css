@@ -3003,6 +3003,10 @@
 			position: absolute;
 		}
 
+		#navPanel {
+			display: none;
+		}
+
 /* Dropotron */
 
 	.dropotron {
