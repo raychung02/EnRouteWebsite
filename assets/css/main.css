@@ -1,6 +1,11 @@
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
 
+/*
+	En Route Website
+	Design by Ray Chung
+*/
+
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -2259,7 +2264,7 @@
 
 /* Image */
 
-	.image, {
+	.image {
 		border-radius: 4px;
 		border: 0;
 		display: inline-block;
@@ -2304,7 +2309,7 @@
 			.image.fit img {
 				width: 100%;
 			}
-
+			
 			.image.fit iframe {
 				width: 100%;
 			}
