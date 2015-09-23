@@ -14,13 +14,18 @@ Live URL
 ========
 [http://raychung02.github.io/en_route/](http://raychung02.github.io/en_route/)
 
-Languages/Libraries Used
+Technologies Used
 =================
 * HTML5
 * CSS3
 * Javascript
-* Adobe Photoshop
-* Abobe Illustrator
 * jQuery
 * [dropotron](https://github.com/n33/jquery.dropotron) (jQuery) by n33
-* skel
+* [skel](https://github.com/n33/skel) by n33
+
+Software Used (For Event Assets)
+--------------------------------
+* Adobe Photoshop (logo, flyers, etc.)
+* Abobe Illustrator (logo, flyers, etc.)
+* Adobe Indesign (event program)
+* Adobe Premiere (video)
