@@ -84,6 +84,22 @@
 					$('#navButton, #navPanel, #page-wrapper')
 						.css('transition', 'none');
 
+			// Dynamically resize iframe
+			function resizeIframe(iframeID) {       
+				var iframe = window.parent.document.getElementById(iframeID);
+				var container = document.getElementById('pics');
+				iframe.style.height = container.offsetHeight + 'px';            
+			}
+
+			resizeIframe('playlist');
+			var width = $(window).width();
+			$(window).resize(function() {
+				if($(this).width() != width){
+					resizeIframe('playlist');
+					width = $(this).width();
+				}
+			});
+
 		// Header.
 		// If the header is using "alt" styling and #banner is present, use scrollwatch
 		// to revert it back to normal styling once the user scrolls past the banner.
