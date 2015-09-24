@@ -91,7 +91,9 @@
 				iframe.style.height = container.offsetHeight + 'px';            
 			}
 
-			resizeIframe('playlist');
+			$window.on('load', function() {
+				resizeIframe('playlist');
+			});
 			var width = $(window).width();
 			$(window).resize(function() {
 				if($(this).width() != width){
