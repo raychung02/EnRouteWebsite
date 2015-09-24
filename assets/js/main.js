@@ -49,6 +49,24 @@
 				expandMode: (skel.vars.touch ? 'click' : 'hover')
 			});
 
+		// Dynamically resize iframe
+			function resizeIframe(iframeID) {       
+				var iframe = window.parent.document.getElementById(iframeID);
+				var container = document.getElementById('pics');
+				iframe.style.height = container.offsetHeight + 'px';            
+			}
+
+			$window.on('load', function() {
+				resizeIframe('playlist');
+			});
+			var width = $(window).width();
+			$(window).resize(function() {
+				if($(this).width() != width){
+					resizeIframe('playlist');
+					width = $(this).width();
+				}
+			});
+
 		// Off-Canvas Navigation.
 
 			// Navigation Button.
@@ -83,24 +101,6 @@
 				if (skel.vars.os == 'wp' && skel.vars.osVersion < 10)
 					$('#navButton, #navPanel, #page-wrapper')
 						.css('transition', 'none');
-
-			// Dynamically resize iframe
-			function resizeIframe(iframeID) {       
-				var iframe = window.parent.document.getElementById(iframeID);
-				var container = document.getElementById('pics');
-				iframe.style.height = container.offsetHeight + 'px';            
-			}
-
-			$window.on('load', function() {
-				resizeIframe('playlist');
-			});
-			var width = $(window).width();
-			$(window).resize(function() {
-				if($(this).width() != width){
-					resizeIframe('playlist');
-					width = $(this).width();
-				}
-			});
 
 		// Header.
 		// If the header is using "alt" styling and #banner is present, use scrollwatch
