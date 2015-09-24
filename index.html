@@ -121,29 +121,29 @@
 						<header class="major">
 							<h2>Contact</h2>
 						</header>
-						<form method="post" action="#">
+						<form method="post" action="contact.php">
 							<div class="row">
 								<div class="6u 12u$(xsmall)">
-									<input type="text" name="name" placeholder="Name" />
+									<input type="text" id="name" name="name" placeholder="Name" />
 								</div>
 								<div class="6u 12u$(xsmall)">
-									<input type="email" name="email" placeholder="Email" />
+									<input type="email" id="email" name="email" placeholder="Email" />
 								</div>
 							</div>
 							<div class="row">
 								<div class="12u$">
-									<input type="text" name="subject" id="subject" placeholder="Subject" />
+									<input type="text" id="subject" name="subject" placeholder="Subject" />
 								</div>
 							</div>
 							<div class="row">
 								<div class="12u$">
-									<textarea name="message" placeholder="Message" rows="5"></textarea>
+									<textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
 								</div>
 							</div>
 							<div class="row">
 								<div class="12u$">
 									<ul class="actions">
-										<li><input type="submit" value="Send Message" /></li>
+										<li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
 									</ul>
 								</div>
 							</div>

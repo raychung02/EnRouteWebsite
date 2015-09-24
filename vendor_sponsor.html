@@ -49,18 +49,23 @@
 
 							If you have any questions/concerns, please contact us at haluan.fsa@gmail.com.
 						</p>
-						<form method="post" action="#">
+						<form method="post" action="vscontact.php">
 							<div class="row">
 								<div class="6u 12u$(xsmall)">
-									<input type="text" name="name" placeholder="Name" />
+									<input type="text" name="name" id="name" placeholder="Name" />
 								</div>
 								<div class="6u 12u$(xsmall)">
-									<input type="email" name="email" placeholder="Email" />
+									<input type="email" name="email" id="email" placeholder="Email" />
 								</div>
 							</div>
 							<div class="row">
 								<div class="12u$">
-									<input type="text" name="subject" id="website" placeholder="Website" />
+									<input type="text" name="company" id="company" placeholder="Company" />
+								</div>
+							</div>
+							<div class="row">
+								<div class="12u$">
+									<input type="text" name="website" id="website" placeholder="Website" />
 								</div>
 							</div>
 							<div class="row">
@@ -71,7 +76,7 @@
 							<div class="row">
 								<div class="12u$">
 									<ul class="actions">
-										<li><input type="submit" value="Send Message" /></li>
+										<li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
 									</ul>
 								</div>
 							</div>
