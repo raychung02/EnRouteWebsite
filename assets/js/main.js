@@ -13,7 +13,9 @@
 
 		var	$window = $(window),
 			$body = $('body');
-			$header = $('header');
+			$header = $('#header');
+			$nav = $('#nav');
+			$navbar = $('#navbar');
 
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
@@ -27,18 +29,11 @@
 		// Fix: Placeholder polyfill.
 			$('form').placeholder();
 
-		// Prioritize "important" elements on mobile.
-			skel.on('+mobile -mobile', function() {
-				$.prioritize(
-					'.important\\28 mobile\\29',
-					skel.breakpoint('mobile').active
-				);
-			});
-
 		// Scrolly.
 			$('.scrolly').scrolly({
 				speed: 1000,
-				offset: -10
+				offset: -10,
+				offsetY: -1
 			});
 
 		// Dropdowns.
@@ -103,21 +98,20 @@
 						.css('transition', 'none');
 
 		// Header.
-		// If the header is using "alt" styling and #banner is present, use scrollwatch
-		// to revert it back to normal styling once the user scrolls past the banner.
+		// If the nav is using "alt" styling and #header is present, use scrollwatch
+		// to revert it back to normal styling once the user scrolls past the header.
 		// Note: This is disabled on mobile devices.
-			if (!skel.vars.mobile
-			&&	$header.hasClass('alt')
-			&&	$banner.length > 0) {
+			if ($nav.hasClass('alt')
+			&&	$header.length > 0) {
 
 				$window.on('load', function() {
 
-					$banner.scrollwatch({
+					$header.scrollwatch({
 						delay:		0,
 						range:		1,
 						anchor:		'top',
-						on:			function() { $header.addClass('alt reveal'); },
-						off:		function() { $header.removeClass('alt'); }
+						on:			function() { $navbar.removeClass('bar'); $nav.addClass('alt'); },
+						off:		function() { $navbar.addClass('bar'); $nav.removeClass('alt'); }
 					});
 
 				});
