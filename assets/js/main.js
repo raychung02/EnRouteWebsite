@@ -44,24 +44,6 @@
 				expandMode: (skel.vars.touch ? 'click' : 'hover')
 			});
 
-		// Dynamically resize iframe
-			function resizeIframe(iframeID) {       
-				var iframe = window.parent.document.getElementById(iframeID);
-				var container = document.getElementById('pics');
-				iframe.style.height = container.offsetHeight + 'px';            
-			}
-
-			$window.on('load', function() {
-				resizeIframe('playlist');
-			});
-			var width = $(window).width();
-			$(window).resize(function() {
-				if($(this).width() != width){
-					resizeIframe('playlist');
-					width = $(this).width();
-				}
-			});
-
 		// Off-Canvas Navigation.
 
 			// Navigation Button.
@@ -100,7 +82,6 @@
 		// Header.
 		// If the nav is using "alt" styling and #header is present, use scrollwatch
 		// to revert it back to normal styling once the user scrolls past the header.
-		// Note: This is disabled on mobile devices.
 			if ($nav.hasClass('alt')
 			&&	$header.length > 0) {
 
@@ -117,6 +98,24 @@
 				});
 
 			}
+
+		// Dynamically resize iframe
+			function resizeIframe(iframeID) {       
+				var iframe = window.parent.document.getElementById(iframeID);
+				var container = document.getElementById('pics');
+				iframe.style.height = container.offsetHeight + 'px';            
+			}
+
+			$window.on('load', function() {
+				resizeIframe('playlist');
+			});
+			var width = $(window).width();
+			$(window).resize(function() {
+				if($(this).width() != width){
+					resizeIframe('playlist');
+					width = $(this).width();
+				}
+			});
 
 
 	});
