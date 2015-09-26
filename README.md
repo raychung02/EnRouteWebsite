@@ -19,6 +19,7 @@ Technologies Used
 * HTML5
 * CSS3
 * Javascript
+* PHP
 * jQuery
 * [dropotron](https://github.com/n33/jquery.dropotron) (jQuery) by n33
 * [skel](https://github.com/n33/skel) by n33
