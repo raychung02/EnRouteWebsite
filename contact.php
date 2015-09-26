@@ -5,11 +5,11 @@
 	$datetime = date('d/m/Y H:i:s');
 
 	// Form data.
+	$to = 'illooroo@gmail.com'; 
 	$name = $_POST['name']; 
 	$email = $_POST['email'];
 	$subject = $_POST['subject'];
 	$message = $_POST['message'];
-	$to = 'illooroo@gmail.com'; 
 	$body = "<p>Contact Form Submission - En Route Website.</p>
 			<p><strong>Name: </strong> {$name} </p>
 			<p><strong>Email Address: </strong> {$email} </p>
@@ -18,16 +18,13 @@
 			<p>This message was sent from the IP Address: {$ipaddress} at {$datetime}</p>";
 
 	$headers = "From: $email" . "\r\n" .
-	"Reply-To: $email" . "\r\n" .
+	"Reply-To: $to" . "\r\n" .
 	"X-Mailer: PHP/" . phpversion();
 
 	if(isset($_POST['submit'])) {              
 		mail($to, $subject, $body, $headers); 
 		echo "<p>Your message has been sent. Thank you!</p>";
-	} 
-	else { 
-		echo "<p>Something went wrong, go back and try again!</p>"; 
-	} 
+	}
 
 	// Return to form.
 	$returndata = array(

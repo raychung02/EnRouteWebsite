@@ -2673,7 +2673,7 @@
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed;
-			background-image: url("images/welcome1.jpg");
+			background-image: url("../../images/welcome1.jpg");
 			background-postion: center;
 			background-size: cover;
 		}
@@ -2770,7 +2770,7 @@
 	#header {
 		background-color: #fff;
 		background-attachment: fixed;
-		background-image: url("images/welcome1.jpg");
+		background-image: url("../../images/welcome1.jpg");
 		background-position: top center;
 		background-size: cover;
 		color: #fff;
@@ -3120,7 +3120,7 @@
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed;
-		background-image: url("images/welcome1.jpg");
+		background-image: url("../../images/welcome1.jpg");
 		background-position: bottom center;
 		background-size: cover;
 		text-align: center;

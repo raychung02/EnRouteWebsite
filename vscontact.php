@@ -5,40 +5,37 @@
 	$datetime = date('d/m/Y H:i:s');
 
 	// Form data.
+	$to = 'illooroo@gmail.com'; 
 	$name = $_POST['name']; 
+	$email = $_POST['email'];
 	$company = $_POST['company'];
 	$website = $_POST['website'];
-	$subject = "$company - Vendor/Sponsor Form Submission"
-	$email = $_POST['email'];
 	$message = $_POST['message'];
-	$to = 'illooroo@gmail.com'; 
+	$subject = "$company - Vendor/Sponsor Form Submission"
 	$body = "<p>Vendor/Sponsor Form Submission - En Route Website.</p>
 			<p><strong>Name: </strong> {$name} </p>
+			<p><strong>Email Address: </strong> {$email} </p>
 			<p><strong>Company: </strong> {$company} </p>
 			<p><strong>Website: </strong> {$website} </p>
-			<p><strong>Email Address: </strong> {$email} </p>
 			<p><strong>Message: </strong> {$message} </p>
 			<p>This message was sent from the IP Address: {$ipaddress} at {$datetime}</p>";
 
 	$headers = "From: $email" . "\r\n" .
-	"Reply-To: $email" . "\r\n" .
+	"Reply-To: $to" . "\r\n" .
 	"X-Mailer: PHP/" . phpversion();
 
 	if(isset($_POST['submit'])) {              
 		mail($to, $subject, $body, $headers); 
 		echo "<p>Your message has been sent. Thank you!</p>";
-	} 
-	else { 
-		echo "<p>Something went wrong, go back and try again!</p>"; 
-	} 
+	}
 
 	// Return to form.
 	$returndata = array(
 		'posted_form_data' => array(
 			'name' => $name,
+			'email' => $email,
 			'company' => $company,
 			'website' => $website,
-			'email' => $email,
 			'message' => $message
 		),
 	);
