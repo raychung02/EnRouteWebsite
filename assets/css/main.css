@@ -2842,7 +2842,7 @@
 			#header .button.special {
 				background-color: #ffffff;
 				box-shadow: inset 0 0 0 1px #ffffff !important;
-				color: #4686a0 !important;
+				color: #000 !important;
 			}
 
 				#header input[type="submit"].special:hover,
