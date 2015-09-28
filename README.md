@@ -12,7 +12,7 @@ En Route is an annual showcase hosted by Haluan, the competitive hip-hop dance t
 
 Live URL
 ========
-[http://raychung02.github.io/en_route/](http://raychung02.github.io/en_route/)
+[http://enroutesc.com/](http://enroutesc.com/)
 
 Technologies Used
 =================
