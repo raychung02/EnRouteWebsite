@@ -7,20 +7,20 @@
 		$datetime = date('d/m/Y H:i:s');
 
 		// Form data.
-		$to = 'illooroo@gmail.com'; 
+		$to = 'enroutesc@gmail.com'; 
 		$name = $_POST['name']; 
 		$email = $_POST['email'];
 		$subject = $_POST['subject'];
 		$message = $_POST['message'];
-		$body = "<p>Contact Form Submission - En Route Website.</p>
-				<p><strong>Name: </strong> {$name} </p>
-				<p><strong>Email Address: </strong> {$email} </p>
-				<p><strong>Subject: </strong> {$subject} </p>
-				<p><strong>Message: </strong> {$message} </p>
-				<p>This message was sent from the IP Address: {$ipaddress} at {$datetime}</p>";
+		$body = "Contact Form Submission - En Route Website.\r\n
+				Name: {$name}\r\n
+				Email Address: {$email}\r\n
+				Subject: {$subject}\r\n
+				Message: {$message}\r\n
+				This message was sent from the IP Address: {$ipaddress} at {$datetime}";
 
 		$headers = "From: $email" . "\r\n" .
-		"Reply-To: $to" . "\r\n" .
+		"Reply-To: $email" . "\r\n" .
 		"X-Mailer: PHP/" . phpversion();
 
 		mail($to, $subject, $body, $headers);
