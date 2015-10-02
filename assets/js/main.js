@@ -99,7 +99,7 @@
 
 			}
 
-		// Dynamically resize iframe
+		// Dynamically resize iframe.
 			function resizeIframe(iframeID) {       
 				var iframe = window.parent.document.getElementById(iframeID);
 				var container = document.getElementById('pics');
