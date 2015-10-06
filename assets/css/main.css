@@ -1564,221 +1564,6 @@
 
 	}
 
-	@media screen and (max-width: 320px) {
-
-		.row > * {
-			padding: 0 0 0 1.5em;
-		}
-
-		.row {
-			margin: 0 0 -1px -1.5em;
-		}
-
-		.row.uniform > * {
-			padding: 1.5em 0 0 1.5em;
-		}
-
-		.row.uniform {
-			margin: -1.5em 0 -1px -1.5em;
-		}
-
-		.row.\32 00\25 > * {
-			padding: 0 0 0 3em;
-		}
-
-		.row.\32 00\25 {
-			margin: 0 0 -1px -3em;
-		}
-
-		.row.uniform.\32 00\25 > * {
-			padding: 3em 0 0 3em;
-		}
-
-		.row.uniform.\32 00\25 {
-			margin: -3em 0 -1px -3em;
-		}
-
-		.row.\31 50\25 > * {
-			padding: 0 0 0 2.25em;
-		}
-
-		.row.\31 50\25 {
-			margin: 0 0 -1px -2.25em;
-		}
-
-		.row.uniform.\31 50\25 > * {
-			padding: 2.25em 0 0 2.25em;
-		}
-
-		.row.uniform.\31 50\25 {
-			margin: -2.25em 0 -1px -2.25em;
-		}
-
-		.row.\35 0\25 > * {
-			padding: 0 0 0 0.75em;
-		}
-
-		.row.\35 0\25 {
-			margin: 0 0 -1px -0.75em;
-		}
-
-		.row.uniform.\35 0\25 > * {
-			padding: 0.75em 0 0 0.75em;
-		}
-
-		.row.uniform.\35 0\25 {
-			margin: -0.75em 0 -1px -0.75em;
-		}
-
-		.row.\32 5\25 > * {
-			padding: 0 0 0 0.375em;
-		}
-
-		.row.\32 5\25 {
-			margin: 0 0 -1px -0.375em;
-		}
-
-		.row.uniform.\32 5\25 > * {
-			padding: 0.375em 0 0 0.375em;
-		}
-
-		.row.uniform.\32 5\25 {
-			margin: -0.375em 0 -1px -0.375em;
-		}
-
-		.\31 2u\28xxsmall\29, .\31 2u\24\28xxsmall\29 {
-			width: 100%;
-			clear: none;
-			margin-left: 0;
-		}
-
-		.\31 1u\28xxsmall\29, .\31 1u\24\28xxsmall\29 {
-			width: 91.6666666667%;
-			clear: none;
-			margin-left: 0;
-		}
-
-		.\31 0u\28xxsmall\29, .\31 0u\24\28xxsmall\29 {
-			width: 83.3333333333%;
-			clear: none;
-			margin-left: 0;
-		}
-
-		.\39 u\28xxsmall\29, .\39 u\24\28xxsmall\29 {
-			width: 75%;
-			clear: none;
-			margin-left: 0;
-		}
-
-		.\38 u\28xxsmall\29, .\38 u\24\28xxsmall\29 {
-			width: 66.6666666667%;
-			clear: none;
-			margin-left: 0;
-		}
-
-		.\37 u\28xxsmall\29, .\37 u\24\28xxsmall\29 {
-			width: 58.3333333333%;
-			clear: none;
-			margin-left: 0;
-		}
-
-		.\36 u\28xxsmall\29, .\36 u\24\28xxsmall\29 {
-			width: 50%;
-			clear: none;
-			margin-left: 0;
-		}
-
-		.\35 u\28xxsmall\29, .\35 u\24\28xxsmall\29 {
-			width: 41.6666666667%;
-			clear: none;
-			margin-left: 0;
-		}
-
-		.\34 u\28xxsmall\29, .\34 u\24\28xxsmall\29 {
-			width: 33.3333333333%;
-			clear: none;
-			margin-left: 0;
-		}
-
-		.\33 u\28xxsmall\29, .\33 u\24\28xxsmall\29 {
-			width: 25%;
-			clear: none;
-			margin-left: 0;
-		}
-
-		.\32 u\28xxsmall\29, .\32 u\24\28xxsmall\29 {
-			width: 16.6666666667%;
-			clear: none;
-			margin-left: 0;
-		}
-
-		.\31 u\28xxsmall\29, .\31 u\24\28xxsmall\29 {
-			width: 8.3333333333%;
-			clear: none;
-			margin-left: 0;
-		}
-
-		.\31 2u\24\28xxsmall\29 + *,
-		.\31 1u\24\28xxsmall\29 + *,
-		.\31 0u\24\28xxsmall\29 + *,
-		.\39 u\24\28xxsmall\29 + *,
-		.\38 u\24\28xxsmall\29 + *,
-		.\37 u\24\28xxsmall\29 + *,
-		.\36 u\24\28xxsmall\29 + *,
-		.\35 u\24\28xxsmall\29 + *,
-		.\34 u\24\28xxsmall\29 + *,
-		.\33 u\24\28xxsmall\29 + *,
-		.\32 u\24\28xxsmall\29 + *,
-		.\31 u\24\28xxsmall\29 + * {
-			clear: left;
-		}
-
-		.\-11u\28xxsmall\29 {
-			margin-left: 91.66667%;
-		}
-
-		.\-10u\28xxsmall\29 {
-			margin-left: 83.33333%;
-		}
-
-		.\-9u\28xxsmall\29 {
-			margin-left: 75%;
-		}
-
-		.\-8u\28xxsmall\29 {
-			margin-left: 66.66667%;
-		}
-
-		.\-7u\28xxsmall\29 {
-			margin-left: 58.33333%;
-		}
-
-		.\-6u\28xxsmall\29 {
-			margin-left: 50%;
-		}
-
-		.\-5u\28xxsmall\29 {
-			margin-left: 41.66667%;
-		}
-
-		.\-4u\28xxsmall\29 {
-			margin-left: 33.33333%;
-		}
-
-		.\-3u\28xxsmall\29 {
-			margin-left: 25%;
-		}
-
-		.\-2u\28xxsmall\29 {
-			margin-left: 16.66667%;
-		}
-
-		.\-1u\28xxsmall\29 {
-			margin-left: 8.33333%;
-		}
-
-	}
-
 /* Basic */
 
 	body {
@@ -1834,7 +1619,6 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: inherit;
-		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
 
@@ -1910,35 +1694,10 @@
 
 /* Section/Article */
 
-	section.special, 
-	article.special {
+	section.center, 
+	article.center,
+	header.center {
 		text-align: center;
-	}
-
-	header p {
-		color: #fff;
-		margin: 0 0 1.5em 0;
-		position: relative;
-	}
-
-	header h2 + p {
-		font-size: 1.25em;
-		line-height: 1.5em;
-		margin-top: -1em;
-	}
-
-	header h3 + p {
-		font-size: 1.1em;
-		line-height: 1.5em;
-		margin-top: -0.8em;
-	}
-
-	header h4 + p,
-	header h5 + p,
-	header h6 + p {
-		font-size: 0.9em;
-		line-height: 1.5em;
-		margin-top: -0.6em;
 	}
 
 	header.major {
@@ -1962,14 +1721,6 @@
 		header.major h6 {
 			margin: 0;
 		}
-
-		header.major p {
-			margin: 0.7em 0 0 0;
-		}
-
-	header.special {
-		text-align: center;
-	}
 
 /* Form */
 
@@ -2059,11 +1810,6 @@
 	}
 
 	:-ms-input-placeholder {
-		color: #999 !important;
-		opacity: 1.0;
-	}
-
-	.formerize-placeholder {
 		color: #999 !important;
 		opacity: 1.0;
 	}
@@ -2395,26 +2141,26 @@
 			width: 100%;
 		}
 
-		input[type="submit"].special,
-		input[type="button"].special,
-		button.special,
-		.button.special {
+		input[type="submit"].center,
+		input[type="button"].center,
+		button.center,
+		.button.center {
 			background-color: #555;
 			box-shadow: none !important;
 			color: #fff !important;
 		}
 
-			input[type="submit"].special:hover,
-			input[type="button"].special:hover,
-			button.special:hover,
-			.button.special:hover {
+			input[type="submit"].center:hover,
+			input[type="button"].center:hover,
+			button.center:hover,
+			.button.center:hover {
 				background-color: #626262;
 			}
 
-			input[type="submit"].special:active,
-			input[type="button"].special:active,
-			button.special:active,
-			.button.special:active {
+			input[type="submit"].center:active,
+			input[type="button"].center:active,
+			button.center:active,
+			.button.center:active {
 				background-color: #484848;
 			}
 
@@ -2498,27 +2244,27 @@
 					background-color: rgba(255, 255, 255, 0.25);
 				}
 
-				.main.style2 input[type="submit"].special,
-				.main.style2 input[type="button"].special,
-				.main.style2 button.special,
-				.main.style2 .button.special {
+				.main.style2 input[type="submit"].center,
+				.main.style2 input[type="button"].center,
+				.main.style2 button.center,
+				.main.style2 .button.center {
 					background-color: #fff;
 					box-shadow: inset 0 0 0 1px #fff !important;
 					color: #333 !important;
 				}
 
-					.main.style2 input[type="submit"].special:hover,
-					.main.style2 input[type="button"].special:hover,
-					.main.style2 button.special:hover,
-					.main.style2 .button.special:hover {
+					.main.style2 input[type="submit"].center:hover,
+					.main.style2 input[type="button"].center:hover,
+					.main.style2 button.center:hover,
+					.main.style2 .button.center:hover {
 						background-color: rgba(255, 255, 255, 0.125) !important;
 						color: #fff !important;
 					}
 
-					.main.style2 input[type="submit"].special:active,
-					.main.style2 input[type="button"].special:active,
-					.main.style2 button.special:active,
-					.main.style2 .button.special:active {
+					.main.style2 input[type="submit"].center:active,
+					.main.style2 input[type="button"].center:active,
+					.main.style2 button.center:active,
+					.main.style2 .button.center:active {
 						background-color: rgba(255, 255, 255, 0.25) !important;
 					}
 
@@ -2601,27 +2347,27 @@
 				background-color: rgba(255, 255, 255, 0.25);
 			}
 
-			#header input[type="submit"].special,
-			#header input[type="button"].special,
-			#header button.special,
-			#header .button.special {
+			#header input[type="submit"].center,
+			#header input[type="button"].center,
+			#header button.center,
+			#header .button.center {
 				background-color: #fff;
 				box-shadow: inset 0 0 0 1px #fff !important;
 				color: #000 !important;
 			}
 
-				#header input[type="submit"].special:hover,
-				#header input[type="button"].special:hover,
-				#header button.special:hover,
-				#header .button.special:hover {
+				#header input[type="submit"].center:hover,
+				#header input[type="button"].center:hover,
+				#header button.center:hover,
+				#header .button.center:hover {
 					background-color: rgba(255, 255, 255, 0.125) !important;
 					color: #fff !important;
 				}
 
-				#header input[type="submit"].special:active,
-				#header input[type="button"].special:active,
-				#header button.special:active,
-				#header .button.special:active {
+				#header input[type="submit"].center:active,
+				#header input[type="button"].center:active,
+				#header button.center:active,
+				#header .button.center:active {
 					background-color: rgba(255, 255, 255, 0.25) !important;
 				}
 
@@ -3278,35 +3024,5 @@
 				#footer .copyright {
 					margin: 1.5em 0 0 0;
 				}
-
-	}
-
-/* XXSmall */
-
-	@media screen and (max-width: 320px) {
-
-		/* Basic */
-
-			html, body {
-				min-width: 320px;
-			}
-
-		/* Main */
-
-			.main {
-				padding: 2em 1em 0.1em 1em ;
-			}
-
-		/* Header */
-
-			#header {
-				padding: 3em 1em 3em 1em ;
-			}
-
-		/* Footer */
-
-			#footer {
-				padding: 1.5em 1em 0.75em 1em ;
-			}
 
 	}

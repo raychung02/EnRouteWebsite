@@ -5,8 +5,7 @@
 		large: '(max-width: 1140px)',
 		medium: '(max-width: 980px)',
 		small: '(max-width: 736px)',
-		xsmall: '(max-width: 480px)',
-		xxsmall: '(max-width: 320px)'
+		xsmall: '(max-width: 480px)'
 	});
 
 	$(function() {
