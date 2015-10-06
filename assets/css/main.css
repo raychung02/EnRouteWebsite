@@ -1,5 +1,5 @@
 @import url("font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 
 /*
 	En Route Website
@@ -1798,7 +1798,7 @@
 
 	body, input, select, textarea {
 		color: #666;
-		font-family: "Source Sans Pro", Helvetica;
+		font-family: "Source Sans Pro", "Helvetica Neue Light", "Helvetica Neue", Helvetica;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.65em;
@@ -2959,7 +2959,7 @@
 /* Footer */
 
 	#footer {
-		padding: 6em 0 6em 0 ;
+		padding: 3em 0 1.75em 0 ;
 		background-color: #fff;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed;
@@ -3123,7 +3123,7 @@
 		/* Footer */
 
 			#footer {
-				padding: 5em 3em 5em 3em ;
+				padding: 3.75em 3em 2em 3em ;
 			}
 
 	}
@@ -3373,7 +3373,7 @@
 		/* Footer */
 
 			#footer {
-				padding: 3em 1.5em 3em 1.5em ;
+				padding: 3em 1.5em 1.75em 1.5em ;
 			}
 
 	}
@@ -3435,23 +3435,12 @@
 		/* Footer */
 
 			#footer {
-				padding: 2em 1.5em 2em 1.5em ;
+				padding: 2em 1.5em 1em 1.5em ;
 			}
 
 				#footer .copyright {
 					margin: 1.5em 0 0 0;
 				}
-
-					#footer .copyright li {
-						border: 0;
-						display: block;
-						margin: 1em 0 0 0;
-						padding: 0;
-					}
-
-						#footer .copyright li:first-child {
-							margin-top: 0;
-						}
 
 	}
 
@@ -3480,7 +3469,7 @@
 		/* Footer */
 
 			#footer {
-				padding: 2em 1em 2em 1em ;
+				padding: 1.5em 1em 0.75em 1em ;
 			}
 
 	}
