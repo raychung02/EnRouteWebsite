@@ -10,9 +10,6 @@ About En Route
 
 En Route is an annual showcase hosted by Haluan, the competitive hip-hop dance team housed under the Filipino Student Association at the University of California, Santa Cruz. En Route is also the first urban dance showcase held in the Santa Cruz area.
 
-Live URL
---------
-[http://enroutesc.com/](http://enroutesc.com/)
 
 Technologies Used
 -----------------
