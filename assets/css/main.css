@@ -1821,7 +1821,7 @@
 
 	strong, b {
 		color: inherit;
-		font-weight: 400;
+		font-weight: 700;
 	}
 
 	em, i {
@@ -2429,7 +2429,7 @@
 				color: #fff;
 			}
 
-			.main.style2 header p {
+			.main.style2 p {
 				color: #fff;
 			}
 
@@ -2858,6 +2858,7 @@
 				line-height: 1em;
 				margin-left: 1em;
 				padding: 0 0 0 1em;
+				color: #fff;
 			}
 
 				#footer .copyright li:first-child {

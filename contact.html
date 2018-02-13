@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <!-- 
-	En Route Website - Vendor/Sponsor Contact
+	En Route Website - Contact
 	Design by Ray Chung
 -->
 
 <html>
 	<head>
-		<title>Vendor/Sponsor Contact - En Route Urban Dance Showcase</title>
+		<title>Contact - En Route Urban Dance Showcase</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -21,10 +21,11 @@
 					<nav id="nav">
 						<ul>
 							<li><a href="index.html">Home</a></li>
+							<li><a href="http://bit.ly/1RFhYU5" target="_blank">Buy Tickets</a></li>
+							<li><a href="contact.html">Contact</a></li>
 							<li class="submenu">
 								<a href="#">More</a>
 								<ul>
-									<li><a href="register.html">Register</a></li>
 									<li><a href="subscribe.html">Subscribe</a></li>
 									<li><a href="staff.html">Staff</a></li>
 									<li><a href="archive.html">Archive</a></li>
@@ -35,47 +36,36 @@
 					</nav>
 				</section>
 
-			<!-- Vendor/Sponsor Contact Form -->
+			<!-- Contact -->
 
-				<section id="vscontact" class="main style1 center">
+				<section class="main style1 center">
 					<div class="container">
 						<header class="major">
-							<h2>2016 En Route Vendor/Sponsor Contact Form</h2>
+							<h2>Contact</h2>
 						</header>
-						<p>
-							Sponsoring En Route 2016 gives you the unique opportunity to connect to the Monterey and Bay Area community, build brand awareness and show your support for the local dance and art community. For more information on our sponsorship packages, please see the event sponsorship proposal below.
-						</p>
-						<ul class="actions">
-							<li><a href="https://drive.google.com/file/d/0B5Y7T4MfYNPASWU3ajMxT1NlRnc/view?usp=sharing" class="button center" target="_blank">Event Sponsorship Proposal</a></li>
-						</ul>
-						<form method="post" action="vscontact.php">
+						<form method="post" action="contact.php">
 							<div class="row">
 								<div class="6u 12u$(xsmall)">
-									<input type="text" name="name" id="name" placeholder="Name" required/>
+									<input type="text" id="name" name="name" placeholder="Name" required/>
 								</div>
 								<div class="6u 12u$(xsmall)">
-									<input type="email" name="email" id="email" placeholder="Email" required/>
+									<input type="email" id="email" name="email" placeholder="Email" required/>
 								</div>
 							</div>
 							<div class="row">
 								<div class="12u$">
-									<input type="text" name="company" id="company" placeholder="Company" required/>
+									<input type="text" id="subject" name="subject" placeholder="Subject" required/>
 								</div>
 							</div>
 							<div class="row">
 								<div class="12u$">
-									<input type="url" name="website" pattern="https?://.+" id="website" placeholder="Website" required/>
-								</div>
-							</div>
-							<div class="row">
-								<div class="12u$">
-									<textarea name="message" placeholder="Message" rows="5" required></textarea>
+									<textarea name="message" id="message" placeholder="Message" rows="5" required></textarea>
 								</div>
 							</div>
 							<div class="row">
 								<div class="12u$">
 									<ul class="actions">
-										<li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
+										<li><input type="submit" name="submit" id="submit" value="Send Message"/></li>
 									</ul>
 								</div>
 							</div>
