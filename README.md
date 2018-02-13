@@ -4,6 +4,7 @@ En Route Website
 by Ray Chung
 
 Website for En Route: Urban Dance Showcase. Fully responsive and written in HTML5, CSS3, Javascript, and PHP.
+Note that certain links may not work anymore (i.e. link to purchase tickets), only reuploading this project for reference.
 
 About En Route
 --------------
